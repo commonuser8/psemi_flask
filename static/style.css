@@ -1,0 +1,19 @@
+.hello{
+    background: #0fa;
+}
+
+h1{
+    color: red;
+}
+
+li{
+    color: mediumspringgreen;
+}
+
+p{
+    color: deepskyblue;
+}
+
+hr{
+    border-color: red;
+}

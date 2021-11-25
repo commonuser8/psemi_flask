@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href="/static/style.css">
+    </head>
+
+    <body>
+    <ul>
+        {% for x in lis %}
+            <li>{{ x }}</li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+    <p>
+        {{ "%s, %s, %s" % (dic["name"], dic["age"], dic["address"])}}
+    </p>
+
+    <hr>
+    {% if dic["age"] >= 20 %}
+        <p>can drink</p>
+    {% else %}
+        <p>can't drink</p>
+    {% endif %}
+    </body>
+</html>
